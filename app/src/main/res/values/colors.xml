@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="order_history">#ff3cc9c9</color>
+    <color name="order_history">@color/action_bar_bg_color</color>
+    <color name="stroke_color">#adadad</color>
+    <color name="action_bar_bg_color">#67c0b9</color>
+    <color name="date_color">#fb8e51</color>
+    <color name="text_content_color">#adadad</color>
+    <color name="event_color">#5ebdb6</color>
+    <color name="table_btn_bg_color">#f7af88</color>
+    <color name="activity_background_color">#e5e5e5</color>
 
 </resources>
