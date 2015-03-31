@@ -12,7 +12,8 @@
     <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:background="@color/action_bar_bg_color">
+        android:background="@color/action_bar_bg_color"
+        android:minHeight="@dimen/toolbar_min_height">
 
         <include layout="@layout/action_bar_layout"/>
 
@@ -81,18 +82,21 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:layout_gravity="center"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:background="@color/table_row_light"/>
 
             <LinearLayout android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:background="@color/table_row_light">
 
                 <TextView
                     android:text="# xxxxxxxxxxx"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_content_color"/>
+                    android:textColor="@color/text_content_color"
+                    android:background="@color/table_row_light"/>
 
                 <TextView
                     android:layout_gravity="center"
@@ -101,7 +105,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/date_color"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:background="@color/table_row_light"/>
 
 
             </LinearLayout>
@@ -109,7 +114,8 @@
             <LinearLayout android:orientation="vertical"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:background="@color/table_row_light">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -117,13 +123,14 @@
                     android:layout_gravity="center"
                     android:text="EXO LIVE:\nEXOluxion"
                     android:textColor="@color/event_color"
-                    />
+                    android:background="@color/table_row_light"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Mar 21, 2015\n5-7pm"
-                    android:textColor="@color/text_content_color"/>
+                    android:textColor="@color/text_content_color"
+                    android:background="@color/table_row_light"/>
 
             </LinearLayout>
 
@@ -251,18 +258,21 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:layout_gravity="center"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:background="@color/table_row_light"/>
 
             <LinearLayout android:orientation="vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:background="@color/table_row_light">
 
                 <TextView
                     android:text="# xxxxxxxxxxx"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/text_content_color"/>
+                    android:textColor="@color/text_content_color"
+                    android:background="@color/table_row_light"/>
 
                 <TextView
                     android:layout_gravity="center"
@@ -271,7 +281,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/date_color"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:background="@color/table_row_light"/>
 
 
             </LinearLayout>
@@ -279,7 +290,8 @@
             <LinearLayout android:orientation="vertical"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:background="@color/table_row_light">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -287,13 +299,14 @@
                     android:layout_gravity="center"
                     android:text="JAY CHOU\nIN CONCERT"
                     android:textColor="@color/event_color"
-                    />
+                    android:background="@color/table_row_light"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="May 2, 2015\n7-8:30pm"
-                    android:textColor="@color/text_content_color"/>
+                    android:textColor="@color/text_content_color"
+                    android:background="@color/table_row_light"/>
 
             </LinearLayout>
 

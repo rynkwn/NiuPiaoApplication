@@ -6,6 +6,7 @@
     android:background="@color/action_bar_bg_color">
 
     <ImageButton android:id="@+id/back_button"
+        android:layout_centerVertical="true"
         android:contentDescription="Image"
         android:src="@drawable/back_button"
         android:layout_width="wrap_content"

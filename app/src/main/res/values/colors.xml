@@ -9,5 +9,6 @@
     <color name="event_color">#5ebdb6</color>
     <color name="table_btn_bg_color">#f7af88</color>
     <color name="activity_background_color">#e5e5e5</color>
+    <color name="table_row_light">#efefef</color>
 
 </resources>
