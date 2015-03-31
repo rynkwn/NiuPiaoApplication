@@ -4,5 +4,8 @@
     <string name="action_settings">Settings</string>
     <string name="ordered_on_title">Ordered On</string>
     <string name="ticket_info_title">Ticket Info</string>
+    <string name="title_activity_country_list">CountryListActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 
 </resources>
