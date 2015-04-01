@@ -4,11 +4,19 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import models.Country;
 
 public class CountryListActivity extends ActionBarActivity{
 
@@ -16,13 +24,6 @@ public class CountryListActivity extends ActionBarActivity{
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country_list);
-
-        //getting the country list
-        try {
-            Document doc = Jsoup.connect("http://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area").get();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
 
