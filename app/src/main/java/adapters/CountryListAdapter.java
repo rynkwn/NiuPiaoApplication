@@ -49,7 +49,7 @@ public class CountryListAdapter extends BaseAdapter {
                     .inflate(R.layout.country_layout, null);
         }
 
-        ((TextView)view.findViewById(R.id.country_rank)).setText(getItem(position).getRank());
+        ((TextView)view.findViewById(R.id.country_rank)).setText(""+getItem(position).getRank());
         ((TextView)view.findViewById(R.id.country_name)).setText(getItem(position).getName());
         ((TextView)view.findViewById(R.id.country_landmass)).setText(getItem(position).getLandmass());
 

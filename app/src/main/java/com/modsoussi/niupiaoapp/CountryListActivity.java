@@ -16,14 +16,26 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import adapters.CountryListAdapter;
 import models.Country;
 
 public class CountryListActivity extends ActionBarActivity{
+
+    private ListView cList;
+    private ArrayList<Country> countries = new ArrayList<Country>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country_list);
+
+        cList = (ListView)findViewById(R.id.country_list);
+
+        countries.add(new Country("Russia",0,123456789));
+
+        CountryListAdapter cAdapter = new CountryListAdapter(this, countries);
+
+        cList.setAdapter(cAdapter);
     }
 
 
