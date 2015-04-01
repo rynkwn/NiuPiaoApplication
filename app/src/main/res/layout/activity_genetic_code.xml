@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.modsoussi.niupiaoapp.GeneticCodeActivity"
+    android:orientation="vertical">
+
+    <!-- this layout is where the create creature buttons are to be displayed -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/create_creature_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Creature 1"/>
+
+        <Button
+            android:id="@+id/create_creature_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Creature 2"/>
+
+    </LinearLayout>
+
+    <!-- this layout holds the text views where points are to be displayed -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/creature_one_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/creature_two_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/reproduce"
+        android:layout_gravity="center"
+        android:text="Mating Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reproduce"/>
+
+    <TextView android:id="@+id/child_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

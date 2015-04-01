@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context="com.modsoussi.niupiaoapp.CountryListActivity">
 
+    <!-- list view to display countries-->
     <ListView
         android:id="@+id/country_list"
         android:layout_width="wrap_content"
@@ -16,6 +17,7 @@
 
     </ListView>
 
+    <!-- button to take to screen 3 -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

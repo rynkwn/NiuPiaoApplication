@@ -3,6 +3,7 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- country rank textview -->
     <TextView
         android:id="@+id/country_rank"
         android:layout_width="wrap_content"
@@ -10,6 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"/>
 
+    <!-- country name textview -->
     <TextView
         android:id="@+id/country_name"
         android:layout_width="150dp"
@@ -17,6 +19,7 @@
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"/>
 
+    <!-- country landmass textview -->
     <TextView android:id="@+id/country_landmass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

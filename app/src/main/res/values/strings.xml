@@ -7,5 +7,6 @@
     <string name="title_activity_country_list">CountryListActivity</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_genetic_code">GeneticCodeActivity</string>
 
 </resources>
