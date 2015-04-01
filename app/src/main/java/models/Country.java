@@ -6,14 +6,14 @@ import java.text.NumberFormat;
 /**
  * Created by modsoussi on 3/31/2015.
  */
-public class Country {
+public class Country implements Comparable<Country> {
 
     private String name;
     private int rank;
     private String landmass;
-    private NumberFormat formatter = new DecimalFormat("0.####E0");
+    private NumberFormat formatter = new DecimalFormat("#.#########E0");
 
-    public Country(String name, int rank, int landmass){
+    public Country(String name, int rank, float landmass){
         this.name = name;
         this.rank = rank;
         this.landmass = formatter.format(landmass);
@@ -45,5 +45,10 @@ public class Country {
 
     public String toString(){
         return rank + " " + name + " " + landmass;
+    }
+
+    @Override
+    public int compareTo(Country another) {
+        return this.name.compareTo(another.getName());
     }
 }
